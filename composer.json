@@ -1,0 +1,21 @@
+{
+    "name": "john-nguyen09/text-color-calculator",
+    "description": "Find out whether to use back or white color given a background color",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Nguyen",
+            "email": "john.nguyen09@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TextColorCalculator\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "require": {}
+}
